@@ -1,5 +1,5 @@
 # PassThrough Node
 
 location / {
-	include lancache/proxy-base;
+    include lancache/proxy-base;
 }

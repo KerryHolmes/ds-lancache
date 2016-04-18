@@ -2,5 +2,5 @@
 include lancache/cache-key-default;
 
 location / {
-	include lancache/cache-installs;
+    include lancache/cache-installs;
 }
