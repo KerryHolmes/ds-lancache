@@ -1,5 +1,4 @@
 # Blizzard Node
-include lancache/resolver;
 
 location / {
 	# Some downloads are very large so we cache based on range to keep

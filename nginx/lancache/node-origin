@@ -1,5 +1,4 @@
 # Origin Node
-include lancache/resolver;
 
 location / {
 	# Currently Origin:
