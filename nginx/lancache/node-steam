@@ -21,6 +21,6 @@ location /serverlist/ {
 }
 
 location / {
-    include lancache/cache-key-default;
+    proxy_cache_key "$server_name$request_uri";
     include lancache/cache-other;
 }
